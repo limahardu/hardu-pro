@@ -1,0 +1,12 @@
+[build]
+  functions = "netlify/functions"
+
+[[redirects]]
+  from = "/api/textsearch"
+  to = "/.netlify/functions/textsearch"
+  status = 200
+
+[[redirects]]
+  from = "/api/details"
+  to = "/.netlify/functions/details"
+  status = 200
